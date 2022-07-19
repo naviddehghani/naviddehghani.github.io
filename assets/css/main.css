@@ -429,17 +429,14 @@ a img {
 }
 
 .tech {
-    margin: 10px;
-    text-align: center;
+    margin: 10px
 }
 
 .user {
     text-align: center;
     font-size: 60px;
-    display: table-row-group;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    justify-content: center
 }
 
 .user p {
@@ -573,4 +570,10 @@ a img {
     text-decoration: none;
     margin: 0;
     color: #fff
+}
+
+.text {
+    text-align: justify;
+    text-align-last: center;
+    justify-content: center
 }
